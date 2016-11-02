@@ -1,6 +1,14 @@
-
-
-
-
+.codeexample {
+	background-color : #fafbfc;
+	font: 1em "Open Sans", courier;
+	padding-left:2em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	width: 550px;
+	color: #2e3d49;
+}
+h1 {
+	color: #2e3d49;
+}
 /* This is a CSS comment. Notice that CSS comments are
 enclosed by different characters than HTML comments. */
