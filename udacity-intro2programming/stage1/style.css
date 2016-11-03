@@ -3,19 +3,21 @@ h1	{
 	text-align: center;
 	color: #2e3d49;
 }
+
 div	{
-	background-color: #153A4A;
+	background-color: #153a4a;
 	border-radius: 50px;
 	max-width: 900px;
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
+
 .block	{
 	font-family: "Open Sans",sans-serif; 
 	text-align: center;
-	background-color: #C77F18;
-	color: #ffffff;	
+	background-color: #c77f18;
+	color: #fff;	
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 25px;
@@ -23,26 +25,29 @@ div	{
 	padding-top: 2em;
 	padding-bottom: 0.5em;
 }
+
 .blocktitle	{
 	text-align: center;
 	font-size: 35px;
-	background-color: #153A4A;
+	background-color: #153a4a;
 	margin: auto;
 	max-width: 200px;
 }
+
 .blocktext	{
 	font-family: "Open Sans",sans-serif;
 	font-weight: bold;	
 	text-align: center;
 	letter-spacing: 1.5px;
 	background-color: inherit;
-	color: #F7F3EB;
+	color: #f7f3eb;
 	margin: auto;
 	max-width: 650px;
 	padding-left: 10px;
 	padding-right: 10px;
 
 }
+
 .blockcode	{
 	background-color : #5e5d5a;
 	font: 1em "Open Sans", courier;
@@ -51,7 +56,7 @@ div	{
 	padding-bottom: 0.5em;
 	width: auto;
 	max-width: 550px;
-	color: #ffffff;
+	color: #fff;
 	text-align: left;
 	margin: auto;
 	border-radius: 10px
