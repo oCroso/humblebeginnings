@@ -1,5 +1,5 @@
 h1 {
-	font-family: Open Sans,sans-serif;
+	font-family: "Open Sans",sans-serif;
 	text-align: center;
 	color: #2e3d49;
 }
@@ -12,7 +12,7 @@ div {
 	margin-bottom: 25px;
 }
 .blocksection	{
-	font-family: Open Sans,sans-serif; 
+	font-family: "Open Sans",sans-serif; 
 	text-align: center;
 	background-color: #C77F18;
 	color: #ffffff;	
@@ -31,7 +31,7 @@ div {
 	max-width: 200px;
 }
 .textsection	{
-	font-family: Open Sans,sans-serif;
+	font-family: "Open Sans",sans-serif;
 	font-weight: bold;	
 	text-align: center;
 	letter-spacing: 1.5px;
@@ -56,5 +56,3 @@ div {
 	margin: auto;
 	border-radius: 10px
 }
-/* This is a CSS comment. Notice that CSS comments are
-enclosed by different characters than HTML comments. */
