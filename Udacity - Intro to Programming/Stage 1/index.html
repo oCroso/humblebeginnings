@@ -1,70 +1,61 @@
-<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<!DOCTYPE html>
 <html lang="en">
-<head> <!-- The head tag includes important information about the page -->
-  <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
-  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
-  You should include this line in the head of all of your webpages. -->
-  <title>Notes: Stage 1</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
-  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Notes: Stage 1</title> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<h1>
 		<b>NOTES: STAGE 0 and 1</b>
 	</h1>
-	<div class="mainsection"><br>
+	<div class="mainsection">
+	<br>
 		<div class="blocksection">
-			<div class="bsectiontitle">
-			INTRO
-			</div>
+			<div class="bsectiontitle">INTRO</div>
 			<div class="textsection">
 				<br>
 				<br>
-				Welcome to my Notes on Stage 0!
-				<!---Bold, italics, and line break! (move to new line for next element)-->
-				I <em>love</em> <b>html.</b> Don't you?
+				Welcome to my Notes on Stage 0! I <em>love</em> <strong>HTML.</strong> Don't you?
 				<br>
-				<!---a link to reddit :D-->
 				<a href="http://www.reddit.com">derpiderpderp </a>
 				<br>
-				<!---Fun image of a chipmunk!-->
 				<img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!">
 				<br>
-				<!---Displaying the uses of the paragraph tag-->
 				<p>
 				Im going to use the paragraph tag here to show the usage of the paragraph!
 				</p>
-				<!--This is making an invisible box around the text.-->
 				<p>
 				This is also using the paragraph tag to display the spacing differences (I'm in a box!)
 				</p>
-				<!---Understanding inline vs block examples-->
 				<span>
-				this is a line showing span which acts like inline text. Strangely it seems to ignore my break at the end...<br>
+				this is a line showing span which acts like inline text. Strangely it seems to ignore my break at the end...
+				<br>
 				</span>
-				Inline <strong>example</strong> for sure.<br><br><br>
+				Inline <strong>example</strong> for sure.
+				<br><br><br>
 				<footer>
 				I hope you enjoyed!
 				</footer>
 			</div>
 		</div>
-		<div class="blocksection"><br>
-			<div class="bsectiontitle">
-			HTML
-			</div>
+		<div class="blocksection">
+		<br>
+			<div class="bsectiontitle">HTML</div>
 			<div class="textsection">
 				<p>
 				<em>HTML (HyperText Markup Language)</em> is the structure from which pages are built. 
 				You can use it to lay out the box strucutre that contains the different elements of your page.
 				Web pages like Wikipedia are great examples of pages with deep layers of html strucutre.
-				You use div to divide up the page into multiple blocks that you use for the structure!
+				You use div to divide up the page into multiple blocks that you use for the structure! Here's a link
+				to W3C's page on html for more info: <a href="http://www.w3schools.com/html/">w3schools HTML tutorials</a>
 				<br><br>
 				</p>
 			</div>
 		</div>
-		<div class="blocksection"><br>
-			<div class="bsectiontitle">
-			CSS
-			</div>
+		<div class="blocksection">
+		<br>
+			<div class="bsectiontitle">CSS</div>
 			<div class="textsection">
 				<p>
 				<em>CSS (Cascading Style Sheets)</em> are used to apply the "decoration" or design to your webpage.
@@ -73,32 +64,48 @@
 				I can use my CSS to do so. A great example of how you can use CSS is:
 				<div class="codeexample">
 				<p>
-				h1 {<br>
-					&emsp;&emsp;&emsp;background-color : black;<br>
-					&emsp;&emsp;&emsp;color: white;<br>
+				h1 {
+				<br>
+				&emsp;&emsp;&emsp;
+				background-color : black;
+					<br>
+					&emsp;&emsp;&emsp;
+					color: white;
+					<br>
 				}
 				</p>
-				</div><br><br>
+				</div>
+				<br><br>
 				Here we see that all elements labeled h1 will now have a black background with white text.
-				But you can also specify a class using class tags. For example:<br><br>
+				But you can also specify a class using class tags. For example:
+				<br><br>
 				<div class="codeexample">
 				<p>
-				.yourclassname {<br>
-					&emsp;&emsp;&emsp;background-color : black;<br>
-					&emsp;&emsp;&emsp;color: white;<br>
+				.yourclassname {
+				<br>
+					&emsp;&emsp;&emsp;
+					background-color : black;
+					<br>
+					&emsp;&emsp;&emsp;
+					color: white;
+					<br>
 				}
 				</p>
-				</div><br><br>
+				</div>
+				<br><br>
 				Now, anything referenced by your html as belonging to the class .yourclassname will have
-				the settings that h1 previously had.<br><br>	
+				the settings that h1 previously had.  If you'd like to see the CSS "bible" click 
+				<a href="http://www.w3schools.com/css/">HERE!</a>
+				<br><br>	
 			</div>
 		</div><br>
-		<div class="blocksection"><br>
-			<div class="bsectiontitle">
-			IMAGES
-			</div>
-			<div class="textsection"><br><br>
-			<img src="app.png" alt="This is a screenshot"><br><br>
+		<div class="blocksection">
+		<br>
+			<div class="bsectiontitle">IMAGES</div>
+			<div class="textsection">
+			<br><br>
+			<img src="app.png" alt="This is a screenshot">
+			<br><br>
 			</div>
 		</div>
 	</div>
