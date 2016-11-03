@@ -11,7 +11,7 @@ div {
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
-.blocksection	{
+.block	{
 	font-family: "Open Sans",sans-serif; 
 	text-align: center;
 	background-color: #C77F18;
@@ -23,14 +23,14 @@ div {
 	padding-top: 2em;
 	padding-bottom: 0.5em;
 }
-.bsectiontitle	{
+.blocktitle	{
 	text-align: center;
 	font-size: 35px;
 	background-color: #153A4A;
 	margin: auto;
 	max-width: 200px;
 }
-.textsection	{
+.blocktext	{
 	font-family: "Open Sans",sans-serif;
 	font-weight: bold;	
 	text-align: center;
@@ -43,7 +43,7 @@ div {
 	padding-right: 10px;
 
 }
-.codeexample {
+.blockcode {
 	background-color : #5e5d5a;
 	font: 1em "Open Sans", courier;
 	padding-left:2em;
