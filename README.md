@@ -1,2 +1,2 @@
 # humblebeginnings - Udacity Learning Repo
-Repo for the code I write during my learning adventures.  This repo will grow to contain multiple projects using Python, Go, and Ruby in the coming months
+Repo for the code I write during my learning adventures.  This repo will continue to grow as I continue to learn.
