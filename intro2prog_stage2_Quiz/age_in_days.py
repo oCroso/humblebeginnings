@@ -4,7 +4,7 @@
 # Simply put, if you were born 1 Jan 2012 and todays date is 
 # 2 Jan 2012 you are 1 day old.
 #
-# My attempt prior to the start of the lesson.
+# This is my attempt prior to the start of the lesson, per the instructions of the lesson.
 
 daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
