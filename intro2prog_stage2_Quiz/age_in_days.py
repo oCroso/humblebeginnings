@@ -9,6 +9,8 @@
 daysOfMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 def isLeapYear(year):
+# determines whether or not a year is a leap year
+# using the mathematical rules for leap years.
     if year % 4 == 0:
         if year % 100 != 0:
             return True
